@@ -26,6 +26,7 @@ def get_end_value_for_first():
             input_array[input_array[i+3]] = input_array[input_array[i+1]] + input_array[input_array[i+2]]
         elif(input_array[i] == 2):
             input_array[input_array[i+3]] = input_array[input_array[i+1]] * input_array[input_array[i+2]]
+        
         elif(input_array[i] == 99):
             break
         else:
